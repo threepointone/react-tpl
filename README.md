@@ -1,7 +1,7 @@
 react-tpl
 ---
 
-(nit published, just work in progress)
+(not published, just work in progress)
 
 an experiment with templates. for react. 
 
