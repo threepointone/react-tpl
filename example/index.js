@@ -15,15 +15,22 @@ function App() {
   let time = useTimer(2000);
 
   return tpl`
-    <div style="${`color: ${
-      Math.random() > 0.5 ? "blue" : "red"
-    }`}">${time.toString()}</div>
-    <div style="${`color: ${
-      Math.random() > 0.5 ? "blue" : "red"
-    }`}">${time.toString()}</div>
-    123
-  `;
+    <style>
+      .something {
+        color: blue;
+      }
+    </style>
+    <div class="something">${time.toString()}</div>    
+  `;  
 }
+
+
+
+
+
+
+
+
 
 import doHash from "./hash";
 
@@ -31,9 +38,7 @@ const templates = {};
 
 function parse(html) {
   const parser = new DOMParser();
-  const doc = parser.parseFromString(html, "text/html");
-
-  return doc;
+  return parser.parseFromString(`<body>${html}</body>`, "text/html");
 }
 
 function attrObj(attributes) {
