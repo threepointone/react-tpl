@@ -11,7 +11,7 @@ function App(props){
   let count = visitors.read(); 
   return tpl`
     <style>
-      h1 { font-weight:bold; }
+      h1 { color:red; }
     </style>
     <h1>welcome to my homepage!</h1>
     <div>
