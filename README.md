@@ -57,6 +57,7 @@ doesn't work (yet)
 - a babel macro for zero runtime (!!!)
 - css-in-js 
 - partial attribute interpolation (eg - `style='color:${props.color}'`)
+- interpolation in `<style>` tags 
 - ssr 
 - older browsers 
 - hot reloading 
