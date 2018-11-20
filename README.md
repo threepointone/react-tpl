@@ -52,6 +52,7 @@ doesn't work (yet)
 --- 
  
 - event handlers (workaround: interpolate an actual react element)
+- object props (same workaround)
 - svg 
 - a babel macro for zero runtime (!!!)
 - css-in-js 
