@@ -61,7 +61,7 @@ doesn't work (yet)
 - ssr 
 - older browsers 
 - hot reloading 
-- not sure how event propogation works 
+- not sure how event propagation works 
 
 future work 
 --- 
